@@ -1,5 +1,4 @@
 const puppeteer = require('puppeteer')
-const results = [];
 (async () => {
     const browser = await puppeteer.launch({
         headless: false
